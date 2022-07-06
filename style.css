@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all .8s ease;
+}
+body{
+    font-size: 62.5%;
+}
+.mainContainer{
+    height: 100vh;
+    background-color: aliceblue;
+}
+        
+        /* Header */
+
+.header{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.header .headerLogo img{
+    width: 90px;
+}
+
+.header .headerMenu a{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 5rem;
+    color: #000;
+}
+
+.header .headerMenu a:hover{
+    color: #FF4321;
+}
+
+        /* Section */
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.rowLeft{
+    width: 50%;
+    margin-top: 12rem;
+}
+
+.rowLeft h1{
+    color: #000;
+    font-size: 3.6rem;
+    letter-spacing: .2rem;
+}
+
+.rowLeft p{
+    color: #000;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.rowLeft .btn{
+    border: 1px solid transparent;
+    background-color: #000;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 5px;
+    margin-bottom: 7rem;
+}
+
+.btn:hover{
+    border: 1px solid transparent;
+    background-color: #FF4321;
+    color: #000;
+    font-weight: 700;
+}
+
+.rowLeft span{
+    color: #FF4321;
+}
+
+.rowRight{
+    width: 50%;
+    position: relative;
+    width: 408px;
+}
+
+.rowRight .rowRight-pic{
+    width: 100%;
+}
+
+.rowRight .picture-1{
+    width: 100%;  
+}
+
+.rowRight .picture-2{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fa-brands{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: rgb(86, 84, 84);
+    transition: 1s;
+}
+
+.fa-brands:hover{
+    font-size: 2.1rem;
+    color: #FF4321;
+}
